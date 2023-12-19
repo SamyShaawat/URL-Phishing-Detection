@@ -1,5 +1,8 @@
 {
     "python.analysis.extraPaths": [
         "./Data_Analysis"
+    ],
+    "cSpell.words": [
+        "googlesearch"
     ]
 }
