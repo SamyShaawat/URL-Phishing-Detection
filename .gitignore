@@ -1,5 +1,7 @@
-Model/savedModel/
-Model/savedTokenizer/
-Model/checkpoint.pth
+Model/savedModels/
+Model/savedTokenizers/
+Model/savedCheckPoints
+Model/savedLosses
+Model/Metrices
 Rest API Flask/models/
 Rest API Flask/models/
