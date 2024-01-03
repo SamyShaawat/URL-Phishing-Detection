@@ -1,4 +1,5 @@
 Model/savedModel/
 Model/savedTokenizer/
+Model/checkpoint.pth
 Rest API Flask/models/
 Rest API Flask/models/
