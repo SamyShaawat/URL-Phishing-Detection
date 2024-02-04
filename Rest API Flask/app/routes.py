@@ -16,5 +16,9 @@ def predict():
         outputs = model(**inputs)
         predictions = torch.nn.functional.softmax(outputs.logits, dim=-1)
         prediction = predictions.argmax().item()
+        if prediction == 0:
+            prediction = "It is a Safe link"
+        else:
+            prediction = "It is a Phishing link"
 
     return jsonify({"prediction": prediction})
