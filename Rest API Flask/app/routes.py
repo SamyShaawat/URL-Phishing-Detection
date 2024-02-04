@@ -17,8 +17,8 @@ def predict():
         predictions = torch.nn.functional.softmax(outputs.logits, dim=-1)
         prediction = predictions.argmax().item()
         if prediction == 0:
-            prediction = "It is a Safe link"
+            prediction = "This is a Safe link, you can click on it."
         else:
-            prediction = "It is a Phishing link"
+            prediction = "This is a Phishing link, do not click on it!!!"
 
     return jsonify({"prediction": prediction})

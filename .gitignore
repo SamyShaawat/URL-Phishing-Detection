@@ -4,4 +4,4 @@ Model/savedCheckPoints
 Model/savedLosses
 Model/savedMetrices
 Rest API Flask/models/
-Rest API Flask/models/
+Rest API Flask/tokenizers/
